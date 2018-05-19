@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+html {
+	background-color:midnightblue;
+}
+
+body {
+	background-color:white;
+	font-family:Futura,Arial,sans-serif;
+}
+
+header h1#title {
+	background-color: steelblue;
+	color: gold;
+	font-size:50px;
+	text-align: center;
+	line-height:60px;
+}
+
+nav.menu a {
+	font-family:Futura,Arial,sans-serif;
+	font-size:1.5em;
+	background-color:midnightblue;
+	line-height: 1.8em;
+	color:gold;
+}
+
+section#rightCol > nav.supeMenu li {
+	background-color:midnightblue;
+	font-size:1.2em;
+	line-height: 1.5em;
+}
+
+section#rightCol a {
+	color:gold;
+}
+
+footer {
+	background-color:steelblue;
+	color:gold;
+	text-decoration:none;
+}
+
+footer > nav.footNav a {
+	color:gold;
+	line-height: 1.8em;
+}
